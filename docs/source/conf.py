@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Large Language Models (LLMs) Simplified: Everything You Need to Know in Simple Terms'
+copyright = '2025, AKademy'
+author = 'AK'
 
-release = '0.1'
-version = '0.1.0'
+#release = ''
+#version = '0.1.0'
 
 # -- General configuration
 
