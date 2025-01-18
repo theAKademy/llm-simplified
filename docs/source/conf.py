@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Large Language Models (LLMs) Simplified: Everything You Need to Know in Simple Terms'
+project = 'LLMs Simplified'
 copyright = '2025, AKademy'
 author = 'AK'
 
