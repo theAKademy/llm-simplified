@@ -1,21 +1,13 @@
-# .readthedocs.yaml
-version: 2
+version: "2"
 
-# Project name
 build:
-  image: "python:3.8"
-  docker_image: "readthedocs/sphinx-build:latest"
+  os: "ubuntu-22.04"
+  tools:
+    python: "3.10"
 
-# Where your documentation source files are located
-sphinx:
-  configuration: docs/conf.py  # Adjust this if your config file is in a different location
-
-# Optional: specify requirements
 python:
   install:
-    - requirements: docs/requirements.txt  # Path to your requirements.txt if you have custom dependencies
+    - requirements: docs/requirements.txt
 
-# If your docs are in a subdirectory
-# build:
-#   dir: "docs"
-
+sphinx:
+  configuration: docs/source/conf.py
